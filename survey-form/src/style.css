@@ -1,0 +1,159 @@
+html,body{
+width:100%;
+  height:900px;
+  background-color:#a9d7d1;
+   font-family: 'Raleway', Helvetica, sans-serif;
+ 
+
+}
+
+main{
+background:rgb(250, 250, 250);
+  border-radius:0.5%;
+    padding:10px;
+  width:70%;
+  margin-left:15%;
+  margin-bottom:10px;
+  
+  
+}
+#title{
+  text-align:center;
+}
+#description{
+  text-align:center;
+  
+}
+#survey-form{
+  height:900px;
+}
+article{
+display:grid;
+grid-template-columns: 50% 50%; 
+  gid-template-rows:auto;
+  grid-gap: 25px 5px;
+grid-template-areas:
+  "a b"
+  "c d"
+  "e f"
+  "g h"
+  "i j"
+  "k l"
+  "m n"
+  "o p"
+  "q q";
+ height:auto;
+}
+
+#name-label{
+  grid-area:a;
+ justify-self:end;
+  padding-right:5%;
+}
+#name{
+  grid-area:b;
+  height:25px;
+  justify-self:start;
+   width:75%;
+}
+#email-label{
+  grid-area:c;
+   justify-self:end;
+    padding-right:5%;
+
+
+}
+#email{
+  grid-area:d;
+  height:25px;
+  justify-self:start;
+   width:75%;
+}
+#number-label{
+  grid-area:e;
+   justify-self:end;
+    padding-right:5%;
+
+}
+#number{
+  grid-area:f;
+  height:25px;
+  justify-self:start;
+  width:75%;
+}
+#dropdown1{
+    text-align:right;
+  grid-area:g;
+ justify-self:end;
+
+}
+#dropdown{
+  grid-area:h;
+  justify-self:start;
+  margin-left:5%;
+
+
+}
+#like{
+    text-align:right;
+  grid-area:i;
+ justify-self:end;
+
+}
+#like_radio{
+  grid-area:j;
+  line-height:1.6;
+  }
+#fcc{
+    text-align:right;
+  grid-area:k;
+  justify-self:end;
+}
+#fcc_select{
+ 
+  grid-area:l;
+justify-self: start;
+margin-left:4%;
+  width:50%;
+}
+#future{
+    justify-self:end;
+  text-align:right;
+
+  grid-area:m;
+}
+#field{
+  grid-area:n;
+  line-height:1.7;
+}
+#suggest{
+  text-align:right;
+  grid-area:o;
+    justify-self:end;
+
+}
+textarea{
+  grid-area:p;
+  width:75%;
+  height:60px;
+  justify-self:start;
+  margin-left:4%;
+}
+
+#submit{
+ grid-area:q;
+  justify-self:center;
+  width:15%;
+  height:25px;
+  background-color: #59ace0;
+  border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+}
+*{
+  
+}
